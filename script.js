@@ -56,7 +56,7 @@ function generateMessage(noCount) {
     
   ];
 
-  const messageIndex = Math.min(noCount, messages.length - 2);
+  const messageIndex = Math.min(noCount, messages.length - 1);
   return messages[messageIndex];
 }
 
