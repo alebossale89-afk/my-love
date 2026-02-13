@@ -48,6 +48,12 @@ function generateMessage(noCount) {
     "perchè no? T_T",
     "amore miooo eddaiiii",
     "amoreeeeeeeee",
+    "dai dimmi di si",
+    "perchè comtinui a dire di no",
+    "dai fallo per me",
+
+
+    
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
