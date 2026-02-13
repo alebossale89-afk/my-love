@@ -6,7 +6,7 @@ const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
-const MAX_IMAGES = 5;
+const MAX_IMAGES = 9;
 
 let play = true;
 let noCount = 0;
@@ -56,7 +56,7 @@ function generateMessage(noCount) {
     
   ];
 
-  const messageIndex = Math.min(noCount, messages.length - 1);
+  const messageIndex = Math.min(noCount, messages.length - 2);
   return messages[messageIndex];
 }
 
